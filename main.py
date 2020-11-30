@@ -1,7 +1,18 @@
 import bpy
+import os
+import sys
 
+for env in os.environ:
+    print(env)
+for arg in sys.argv:
+    print(arg)
 print("Hello World")
 
+# POSX
+#export MYVAR=Hello
+
+#REM MS-DOS/Windows
+#set MYVAR=Hello
 x = 0
 #for obj in bpy.data.objects:
     #print(obj.name + " " + obj.type)
